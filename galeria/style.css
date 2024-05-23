@@ -88,6 +88,7 @@ body {
   .galeria img{
     width: 100%;
     margin-bottom: 1rem;
+    margin: 10px;
   }
   /* .galeria img :hover{
     tran
