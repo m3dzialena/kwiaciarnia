@@ -1,0 +1,373 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  background-color: #e4d8dd;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+  width: auto;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+nav ul li a:hover {
+  background-color: #f0eaee;
+}
+
+.dropbtn {
+  background-color: #e4d8dd;
+  border: none;
+  font-size: 16px;
+}
+
+.dropbtn:hover {
+  background-color: #f0eaee;
+}
+
+.drop-link {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .drop-link {
+  display: block;
+}
+
+.drop-link a {
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop-link a:hover {
+  background-color: #f0eaee;
+}
+footer {
+  background-color: #e4d8dd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer p {
+  flex-basis: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+header h1,
+footer h1 {
+  margin: 0;
+  text-align: center;
+  font-family: "Fredericka the Great", serif;
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 38px;
+}
+.wiadomość-powitalna h2 {
+  font-weight: 500;
+}
+
+.wiadomość-powitalna {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wiadomość-powitalna p{
+  margin-bottom: 35px;
+}
+
+.zdj {
+  background-image: url("./zdjecia/t1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+nav {
+  background-color: #e4d8dd;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+nav ul li a:hover {
+  background-color: #f0eaee;
+}
+
+.wiadomość-powitalna a {
+  background-color: #e4d8dd;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.7s;
+  text-decoration: none;
+  color: black;
+}
+.guzik:hover {
+  background-color: #f0eaee;
+}
+
+.newsletter {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;;
+  text-align: center;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.newsletter h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.newsletter p {
+  color: #666;
+  margin-top: 1rem;
+}
+
+.newsmail {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 19px;
+}
+.icon {
+  padding: 10px;
+  background: #d14c7c;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+.btnnews {
+  padding: 10px;
+  background: #d14c7c;
+  color: white;
+  min-width: 50px;
+  border: none;
+  text-align: center;
+}
+
+.kwiatki {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section header {
+  flex-basis: 100%;
+  text-align: center;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+}
+.item ul {
+  margin: 0px;
+}
+.item img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.item h4{
+  margin: 13px;
+}
+.ofertyOkazje {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.okazja {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 15px 14px;
+  border-radius: 5px;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition-duration: 0.5s;
+  text-align: center;
+}
+.okazja:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+.okazja h3 {
+  margin-bottom: 5px;
+}
+
+.okazja p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+}
+  .ofertyZdjecia{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.ofertyZdjecia img{
+  margin:20px;
+  max-width: 345px;
+}
+
+.opinie {
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.opinie h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.opinie-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.opinia {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: center;
+}
+
+.opinia img {
+  border-radius: 50%;
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.opinia blockquote {
+  margin: 0;
+  font-style: italic;
+}
+
+.opinia cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555555;
+}
+
+
+/* max-width: 768px */
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+  .drop-link{
+    position: relative;
+    background-color: #e4d8dd;
+  }
+
+  .zdj {
+    padding: 80px 0; 
+  }
+  
+  .wiadomość-powitalna h2 {
+    font-size: 24px; 
+  }
+  
+  .wiadomość-powitalna p {
+    font-size: 16px; 
+  }
+  .newsletter{
+  max-width: 60%;
+}
+.newsletter h1 {
+  font-size: 1.5rem;
+  margin: 7px;
+}
+
+}

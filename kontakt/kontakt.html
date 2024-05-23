@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kwiaciarnia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html"><i class="fas fa-home"></i></a>
+          </li>
+          <li><a href="../galeria/galeria.html">Galeria</a></li>
+          <li><a href="../kontakt/kontakt.html">Kontakt</a></li>
+          <li class="dropdown">
+            <button class="dropbtn">
+              Produkty <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="drop-link">
+              <a href="../produkty/produkty.html">Produkty</a>
+              <a href="../cennik/cennik.html">Cennik</a>
+              <a href="../ulubione/koszyk.html"
+                ><i class="fa-solid fa-heart"></i
+              ></a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      </nav>
+
+      <header>
+        <h2>Kontakt</h2>
+        <hr />
+      </header>
+      <main>
+        <section class="inf">
+          <img src="../zdjecia/kw2.jpg" alt="kwiaciarnia" />
+          <div class="inf-tekst">
+            <h2>Informacje o naszym sklepie</h2>
+            <hr />
+            <ul>
+              <li>
+                <strong>Adres:</strong> ul. Wielowiejska 5, 00-000 Wielowies
+              </li>
+              <li><strong>Telefon:</strong> +48 123 456 789</li>
+              <li><strong>Godziny otwarcia:</strong></li>
+              <ul>
+                <li>Poniedziałek - Piątek: 9:00 - 18:00</li>
+                <li>Sobota: 10:00 - 15:00</li>
+                <li>Niedziela: nieczynne</li>
+              </ul>
+              <li><strong>E-mail:</strong> info@kwiaty.com</li>
+              <li>
+                <strong>Oferta:</strong> świeże kwiaty cięte, bukiety
+                okolicznościowe, rośliny doniczkowe
+              </li>
+              <li>
+                <strong>Dostawa:</strong> realizujemy dostawy w obrębie miasta
+                oraz okolic
+              </li>
+              <li>
+                <strong>Metody płatności:</strong> gotówka, karta płatnicza
+              </li>
+              <li>
+                <strong>Parking:</strong> dostępny dla klientów przy sklepie
+              </li>
+              <li>
+                <strong>O nas:</strong> jesteśmy pasjonatami kwiatów i z pasją
+                tworzymy piękne kompozycje kwiatowe
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="adres">
+          <div class="a-tekst">
+            <h2>Adres</h2>
+            <hr />
+            <p>Serdecznie zapraszamy do naszego sklepu!</p>
+            <p>
+              Jeśli nie możez osobiscie nas odwiedzić, prosimy o kontakt
+              telefoniczny pod nr: 48+ 000 000 000
+            </p>
+            <label for="message">Masz pytania? Daj nam znać!</label>
+            <textarea id="message" name="message" class="form-i"></textarea>
+            <button type="submit" class="formbtn">Wyślij</button>
+          </div>
+          <div class="a-mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5123.270199683286!2d19.91895767770996!3d50.05566659999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165b730b4c7e0b%3A0x58c0ea11ff430d1f!2sKwiaciarnia%20Margaritta!5e0!3m2!1spl!2spl!4v1715639558862!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </section>
+
+        <section class="my">
+          <h2>O nas</h2>
+          <hr />
+          <div class="myTekst">
+            <p>
+              Nasza kwiaciarnia oferuje najpiękniejsze kwiaty cięte oraz pięknie
+              skomponowane bukiety na każdą okazję. Niezależnie od tego, czy
+              szukasz bukietu na urodziny, rocznicę, walentynki czy też po
+              prostu chcesz podarować coś wyjątkowego bliskiej osobie, nasza
+              oferta z pewnością spełni Twoje oczekiwania.
+            </p>
+            <img src="../zdjecia/kw2.jpg" alt="kwiaciarnia" />
+          </div>
+        </section>
+
+        <section class="kontakt">
+          <h2>Kontakt</h2>
+          <hr />
+          <form class="form">
+            <div class="form-g">
+              <label for="name">Imię i nazwisko:</label>
+              <input type="text" id="name" name="name" class="form-i" required />
+            </div>
+            <div class="form-g">
+              <label for="email">Adres e-mail:</label>
+              <input type="email" id="email" name="email" class="form-i" required />
+            </div>
+            <div class="form-g">
+              <label for="message">Wiadomość:</label>
+              <textarea id="message" name="message" class="form-i" required></textarea>
+            </div>
+            <button type="submit" class="formbtn">Wyślij wiadomość</button>
+          </form>
+        </section>
+      </main>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/99d73d61b3.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

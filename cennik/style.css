@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  background-color: #e4d8dd;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+  width: auto;
+}
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+nav ul li a:hover {
+  background-color: #f0eaee;
+}
+
+.dropbtn {
+  background-color: #e4d8dd;
+  border: none;
+  font-size: 16px;
+}
+
+.dropbtn:hover {
+  background-color: #f0eaee;
+}
+
+.drop-link {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .drop-link {
+  display: block;
+}
+
+.drop-link a {
+  color: #000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.drop-link a:hover {
+  background-color: #f0eaee;
+}
+header {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #d14c7c;
+  color: white;
+}
+tr {
+  background-color: #e4d8dd;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+}
+.tabela {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+  .drop-link{
+    position: relative;
+    background-color: #e4d8dd;
+  }
+  table {
+    width: 100%;
+  }
+  table, th, td, tr {
+    display: block;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  thead {
+    display: none;
+  }
+  tr {
+    margin-bottom: 10px;
+  }
+  td:first-child {
+    font-weight: bold;
+  }
+  
+}
